@@ -18,15 +18,18 @@ Or install it yourself as:
 
 ## Usage
     
-    #directly from a string
+Directly from a string
+ 
     Mustache::Render.from_string("hello {{name}}", {'name' => 'world'})
 
-    #or
+Or using templates:
 
-    # in HelloWorld.mustache in the resource directory
+in HelloWorld.mustache in the resource directory
+
     Hello {{name}}
 
-    #in your code
+in your code
+
     Mustache::Render.from_template("HelloWorld", {'name' => 'world'})
 
 ## Contributing
