@@ -1,6 +1,6 @@
 # MotionMustache
 
-This is a wrapper of the GRMustache cocoapod for RubyMotion.  It provides basic mustache templating.  If I haven't implemented a method that you need, please feel free to fork and add it and make a pull request.  Thanks
+This is a wrapper of the GRMustache cocoapod for RubyMotion.  It provides basic mustache templating.  If I haven't implemented a method that you need, please feel free to fork and add it and make a pull request.  Thanks.  The code for the cocoapod is here [GRMustache](https://github.com/groue/GRMustache)
 
 ## Installation
 
