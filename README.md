@@ -20,7 +20,8 @@ Or install it yourself as:
     
 Directly from a string
  
-    Mustache::Render.from_string("hello {{name}}", {'name' => 'world'})
+    (main)> Mustache::Render.from_string("hello {{name}}", {'name' => 'world'})
+    => "hello world"
 
 Or using templates:
 
@@ -30,7 +31,8 @@ in HelloWorld.mustache in the resource directory
 
 in your code
 
-    Mustache::Render.from_template("HelloWorld", {'name' => 'world'})
+    (main)> Mustache::Render.from_template("HelloWorld", {'name' => 'world'})
+    => "hello world"
 
 ## Contributing
 
