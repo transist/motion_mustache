@@ -1,6 +1,6 @@
 # MotionMustache
 
-TODO: Write a gem description
+This is a wrapper of the GRMustache cocoapod.  It provides basic mustache templating.  If I haven't implemented a method that you need, please feel free to fork and add it and make a pull request.  Thanks
 
 ## Installation
 
@@ -17,8 +17,17 @@ Or install it yourself as:
     $ gem install motion_mustache
 
 ## Usage
+    
+    #directly from a string
+    Mustache::Render.from_string("hello {{name}}", {'name' => 'world'})
 
-TODO: Write usage instructions here
+    #or
+
+    # in HelloWorld.mustache in the resource directory
+    Hello {{name}}
+
+    #in your code
+    Mustache::Render.from_template("HelloWorld", {'name' => 'world'})
 
 ## Contributing
 
